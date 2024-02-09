@@ -1,0 +1,85 @@
+.out-dash{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+} 
+ .link{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(222, 215, 214);
+} 
+.btn-dash{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(201, 83, 83);
+    margin-right: 100px;
+    border-radius: 40px;
+    color: white;
+}
+.blue{
+    background: rgb(106, 106, 213);
+    margin-left: 10px;
+}
+.green{
+    background: rgb(118, 213, 118);
+    margin-left: 50px;
+}
+
+.input1 input{
+    background-color: white;
+    background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  width: 400px;
+  display: flex;
+}
+
+.out2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Poppins;
+}
+.table{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th{
+        background: lightblue;
+        margin-left: 20px;
+      }
+      
+      tr:hover {background-color: rgb(238, 212, 203);}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
